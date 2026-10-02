@@ -1,0 +1,30 @@
+
+/*
+Q14 - Customers Above Spending Threshold
+
+Difficulty: Medium
+
+Problem:
+Find customers whose total spending exceeds a
+given spending threshold.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- total_spending
+
+Requirements:
+- Calculate total spending for each customer.
+- Return only customers whose total spending is
+  greater than the specified threshold.
+- Sort customers by total_spending in descending order.
+
+Concepts:
+- JOIN
+- SUM
+- GROUP BY
+- HAVING
+- Aggregation filtering
+*/
+

@@ -1,0 +1,26 @@
+
+/*
+Q16 - Successful Payment Percentage
+
+Difficulty: Medium
+
+Problem:
+Calculate the percentage of payments that were successful.
+
+Return:
+- successful_payment_percentage
+
+Requirements:
+- Treat payments with payment_status = 'SUCCESS'
+  as successful.
+- Calculate successful payments as a percentage
+  of all payments.
+- Return the result as a percentage value.
+
+Concepts:
+- COUNT
+- CASE
+- Conditional aggregation
+- Arithmetic
+- Percentage calculation
+*/

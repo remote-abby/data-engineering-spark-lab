@@ -1,0 +1,25 @@
+
+/*
+Q12 - Monthly Order Revenue
+
+Difficulty: Easy
+
+Problem:
+Calculate the total order revenue for every month.
+
+Return:
+- month
+- total_revenue
+
+Requirements:
+- Group orders by month based on order_date.
+- Calculate the total revenue using total_amount.
+- Sort the results chronologically.
+
+Concepts:
+- SUM
+- GROUP BY
+- Date functions
+- Date aggregation
+*/
+

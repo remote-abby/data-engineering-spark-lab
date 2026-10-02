@@ -1,0 +1,34 @@
+/*
+Q17 - Category Sales Summary
+
+Difficulty: Medium
+
+Problem:
+For every product category, calculate:
+1. The total number of products in the category.
+2. The number of distinct products that have actually
+   been sold.
+3. The total quantity of products sold.
+
+Return:
+- category
+- product_count
+- distinct_products_sold
+- total_quantity_sold
+
+Requirements:
+- Include categories even when none of their products
+  have been sold.
+- Count all products belonging to the category.
+- Count only distinct products that appear in order_items
+  as sold products.
+- Calculate total quantity using order_items.quantity.
+
+Concepts:
+- LEFT JOIN
+- COUNT
+- COUNT(DISTINCT)
+- SUM
+- GROUP BY
+- Aggregation
+*/

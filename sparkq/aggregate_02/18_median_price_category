@@ -1,0 +1,27 @@
+
+/*
+Q18 - Median Product Price by Category
+
+Difficulty: Medium
+
+Problem:
+Calculate the median product price for each category.
+
+Return:
+- category
+- median_price
+
+Requirements:
+- Group products by category.
+- Calculate the median price within each category.
+- Return one row for each category.
+- Use an appropriate SQL function for calculating
+  the median.
+
+Concepts:
+- Median
+- GROUP BY
+- PERCENTILE_CONT
+- Ordered-set aggregate
+*/
+```

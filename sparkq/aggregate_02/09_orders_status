@@ -1,0 +1,21 @@
+/*
+Q09 - Orders by Status
+
+Difficulty: Easy
+
+Problem:
+Count the number of orders for each order status.
+
+Return:
+- status
+- order_count
+
+Requirements:
+- Group orders by their status.
+- Return one row for each status.
+
+Concepts:
+- COUNT
+- GROUP BY
+- Aggregation
+*/

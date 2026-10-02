@@ -1,0 +1,21 @@
+/*
+Q10 - Customers by Country
+
+Difficulty: Easy
+
+Problem:
+Count the number of customers in each country.
+
+Return:
+- country
+- customer_count
+
+Requirements:
+- Group customers by country.
+- Return one row for each country.
+
+Concepts:
+- COUNT
+- GROUP BY
+- Aggregation
+*/

@@ -1,0 +1,27 @@
+/*
+Q15 - Average Order Value by Customer
+
+Difficulty: Medium
+
+Problem:
+Calculate the average order value for every customer.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- average_order_value
+
+Requirements:
+- Calculate the average total_amount of orders
+  placed by each customer.
+- Include customers who have never placed an order.
+- Customers with no orders should show NULL
+  for average_order_value.
+
+Concepts:
+- LEFT JOIN
+- AVG
+- GROUP BY
+- NULL handling
+*/

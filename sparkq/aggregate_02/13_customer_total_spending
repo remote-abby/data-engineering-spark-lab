@@ -1,0 +1,29 @@
+
+/*
+Q13 - Customer Total Spending
+
+Difficulty: Easy
+
+Problem:
+Calculate the total amount spent by every customer,
+including customers who have never placed an order.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- total_spending
+
+Requirements:
+- Include every customer in the result.
+- Customers with no orders should have total_spending = 0.
+- Calculate spending using orders.total_amount.
+
+Concepts:
+- LEFT JOIN
+- SUM
+- GROUP BY
+- COALESCE
+- Aggregation
+*/
+

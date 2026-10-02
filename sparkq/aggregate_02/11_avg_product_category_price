@@ -1,0 +1,21 @@
+/*
+Q11 - Average Product Price by Category
+
+Difficulty: Easy
+
+Problem:
+Calculate the average product price for each product category.
+
+Return:
+- category
+- average_price
+
+Requirements:
+- Group products by category.
+- Calculate the average price within each category.
+
+Concepts:
+- AVG
+- GROUP BY
+- Aggregation
+*/
