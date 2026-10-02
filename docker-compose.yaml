@@ -50,6 +50,7 @@ services:
       AWS_SECRET_ACCESS_KEY: minioadmin
     volumes:
       - ./solutions:/app
+      - ./datasets:/app/datasets
       - ./jars:/opt/extra-jars
     working_dir: /app
     # depends_on:
@@ -61,11 +62,5 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] test.py
-    # command: /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar generate_orders.py
-    # command: bash -c "python3 setup_minio.py && /opt/spark/bin/spark-submit --master local[*] job1.py"
-    # command: bash -c "python3 setup_minio.py && /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar generate_orders.py"
-    # command: /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/postgresql-42.6.0.jar connect_postgres.py
-    # command: /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/postgresql-42.6.0.jar,/opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar dj_customer_retention_pipeline.py
-    # command: /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/postgresql-42.6.0.jar,/opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar de_clv.py
+    command: /opt/spark/bin/spark-submit --master local[*] basics_01/03_order_date_range.py
 

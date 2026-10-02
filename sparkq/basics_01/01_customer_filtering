@@ -5,18 +5,15 @@ Difficulty: Easy
 
 Problem:
 Find all customers from India who signed up after
-2025-01-01.
+2024-05-01.
 
 Return:
 - customer_id
-- first_name
-- last_name
-- email
+- country
 - signup_date
 
 Concepts:
 - SELECT
-- WHERE
-- AND
+- filter
 - Date filtering
 */
