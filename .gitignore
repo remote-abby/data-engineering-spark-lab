@@ -1,0 +1,5 @@
+postgres_data/
+postgres-init/
+minio_data/
+jars/
+java_opts.txt
