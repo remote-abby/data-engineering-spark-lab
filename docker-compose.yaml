@@ -49,7 +49,7 @@ services:
       AWS_ACCESS_KEY_ID: minioadmin
       AWS_SECRET_ACCESS_KEY: minioadmin
     volumes:
-      - ./app:/app
+      - ./solutions:/app
       - ./jars:/opt/extra-jars
     working_dir: /app
     # depends_on:
@@ -61,7 +61,7 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] solutions/test.py
+    command: /opt/spark/bin/spark-submit --master local[*] test.py
     # command: /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar generate_orders.py
     # command: bash -c "python3 setup_minio.py && /opt/spark/bin/spark-submit --master local[*] job1.py"
     # command: bash -c "python3 setup_minio.py && /opt/spark/bin/spark-submit --master local[*] --jars /opt/extra-jars/hadoop-aws-3.3.2.jar,/opt/extra-jars/aws-java-sdk-bundle-1.12.262.jar generate_orders.py"
