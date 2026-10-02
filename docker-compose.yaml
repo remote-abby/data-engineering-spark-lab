@@ -62,5 +62,5 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] basics_01/04_most_expensive_product.py
+    command: /opt/spark/bin/spark-submit --master local[*] basics_01/08_handling_missing_values.py
 
