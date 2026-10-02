@@ -1,0 +1,24 @@
+/* 
+Q02 - Product Price Range 
+
+Difficulty: Easy 
+
+Problem: 
+Find all products whose price falls between two given values. 
+
+Return: 
+- product_id 
+- product_name 
+- category 
+- price 
+
+Requirements: 
+- Include products whose price is within the given range. 
+- Include both boundary values. 
+
+Concepts: 
+- SELECT 
+- WHERE 
+- BETWEEN 
+- Comparison operators 
+*/

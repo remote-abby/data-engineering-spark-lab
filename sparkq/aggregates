@@ -1,0 +1,10 @@
+Q9. count orders for each order status.
+Q10. count customers in each country.
+Q11. find average product price for each category.
+Q12. calculate total order revenues for every month.
+Q13. Calculate total spending for evert customer, including customers who never ordered.
+Q14. find customers whose vtotal spending exceeds a threshold.
+Q15. calculate average order value for all customers
+Q16. calculate percentage of payments that were successful.
+Q17. for every category, calculate -number of products, number of distinct products actually sold, total quantity sold.
+Q18. find the median product price for each category. 

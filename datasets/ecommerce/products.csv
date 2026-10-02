@@ -1,0 +1,16 @@
+product_id,product_name,category,price
+P001,MacBook Pro,Electronics,2200.00
+P002,iPhone 15,Electronics,999.00
+P003,Samsung Galaxy S24,Electronics,899.00
+P004,Dell Monitor 27,Electronics,450.00
+P005,Mechanical Keyboard,Accessories,120.00
+P006,Wireless Mouse,Accessories,60.00
+P007,USB-C Hub,Accessories,80.00
+P008,Noise Cancelling Headphones,Audio,250.00
+P009,Webcam HD,Accessories,100.00
+P010,Office Chair,Furniture,350.00
+P011,Standing Desk,Furniture,600.00
+P012,External SSD 1TB,Storage,130.00
+P013,AirPods Pro,Audio,249.00
+P014,Kindle Paperwhite,Electronics,180.00
+P015,Desk Lamp,Accessories,45.00

@@ -1,0 +1,23 @@
+/*
+Q04 - Most Expensive Products
+
+Difficulty: Easy
+
+Problem:
+Return the 20 most expensive products.
+
+Return:
+- product_id
+- product_name
+- category
+- price
+
+Requirements:
+- Sort products from highest price to lowest price.
+- Return only the top 20 products.
+
+Concepts:
+- ORDER BY
+- DESC
+- LIMIT
+*/

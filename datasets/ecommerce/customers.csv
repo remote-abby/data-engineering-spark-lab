@@ -1,0 +1,17 @@
+customer_id,first_name,last_name,email,country,signup_date
+C001,John,Smith,john.smith@gmail.com,USA,2024-01-15
+C002,Rahul,Sharma,rahul.sharma@gmail.com,India,2024-02-10
+C003,Sarah,Wilson,sarah.wilson@gmail.com,UK,2024-02-18
+C004,Michael,Chen,michael.chen@gmail.com,Singapore,2024-03-05
+C005,Priya,Patel,priya.patel@gmail.com,India,2024-03-21
+C006,David,Johnson,david.johnson@gmail.com,USA,2024-04-02
+C007,Emma,Brown,emma.brown@gmail.com,UK,2024-04-17
+C008,Arjun,Mehta,arjun.mehta@gmail.com,India,2024-05-01
+C009,Olivia,Martin,olivia.martin@gmail.com,USA,2024-05-19
+C010,Daniel,Tan,daniel.tan@gmail.com,Singapore,2024-06-03
+C011,Ananya,Rao,ananya.rao@gmail.com,India,2024-06-25
+C012,James,Anderson,james.anderson@gmail.com,USA,2024-07-11
+C013,Sophie,Taylor,sophie.taylor@gmail.com,UK,2024-08-04
+C014,Vikram,Joshi,vikram.joshi@gmail.com,India,2024-09-12
+C015,Liam,Walker,liam.walker@gmail.com,UK,2024-10-01
+C016,Noah,Thompson,noah.thompson@gmail.com,USA,2024-12-15

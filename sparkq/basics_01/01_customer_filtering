@@ -1,0 +1,22 @@
+/*
+Q01 - Customer Filtering
+
+Difficulty: Easy
+
+Problem:
+Find all customers from India who signed up after
+2025-01-01.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+- signup_date
+
+Concepts:
+- SELECT
+- WHERE
+- AND
+- Date filtering
+*/

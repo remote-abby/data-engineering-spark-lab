@@ -1,0 +1,33 @@
+
+/*
+Q06 - Product Price Classification
+
+Difficulty: Easy
+
+Problem:
+Classify each product into one of three price categories
+based on its price.
+
+Classification:
+- Budget: price < 50
+- Standard: price between 50 and 200
+- Premium: price > 200
+
+Return:
+- product_id
+- product_name
+- price
+- price_category
+
+Requirements:
+- Create a derived column called price_category.
+- Every product must belong to exactly one category.
+
+Concepts:
+- SELECT
+- CASE
+- WHEN
+- THEN
+- ELSE
+- Conditional logic
+*/

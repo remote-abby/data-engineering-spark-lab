@@ -1,0 +1,26 @@
+
+/*
+Q03 - Orders Within Date Range
+
+Difficulty: Easy
+
+Problem:
+Return all orders placed within a specific date range.
+
+Return:
+- order_id
+- customer_id
+- order_date
+- status
+- total_amount
+
+Requirements:
+- Filter orders using a start date and an end date.
+- Include orders placed on both boundary dates.
+
+Concepts:
+- SELECT
+- WHERE
+- BETWEEN
+- Date filtering
+*/

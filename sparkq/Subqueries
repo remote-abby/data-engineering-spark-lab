@@ -1,0 +1,9 @@
+Q29. Find customers whose total spending is greater than the average customer spend.
+Q30. Find products whose price is greater than their category average.
+Q31. Find orders where total payments exceed the order amount.
+Q32 find each customers latest order.
+Q33. find customers who have atleast 1 failed payments.
+Q34. find customers for whom no payments has ever failed.
+Q35. find customers who purchased a given product.
+Q36. customers who purchased products from at least three different categories.
+

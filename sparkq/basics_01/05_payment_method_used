@@ -1,0 +1,23 @@
+
+
+/*
+Q05 - Payment Methods Used
+
+Difficulty: Easy
+
+Problem:
+Return all unique payment methods that have been used
+in the payments table.
+
+Return:
+- payment_method
+
+Requirements:
+- Each payment method should appear only once.
+- The result should not contain duplicate values.
+
+Concepts:
+- SELECT
+- DISTINCT
+*/
+

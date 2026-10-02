@@ -1,0 +1,35 @@
+
+
+/*
+Q07 - Standardised Customer Names
+
+Difficulty: Easy
+
+Problem:
+Return customer names in a standardised format.
+
+The first name and last name should:
+- Have leading/trailing whitespace removed.
+- Be converted to a consistent case.
+- Be returned as a single full_name column.
+
+Return:
+- customer_id
+- full_name
+- email
+
+Example:
+first_name = '  john'
+last_name  = 'DOE  '
+
+Expected:
+full_name = 'John Doe'
+
+Concepts:
+- TRIM
+- INITCAP
+- CONCAT
+- String manipulation
+*/
+
+

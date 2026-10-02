@@ -1,0 +1,11 @@
+Q42. Rank customer by spending
+Q43. top 3 products per category
+Q44. Highest spending customer per country.
+Q45. Running monthly revenue - month, monthly revenue, running revenue
+Q46. calc a rolling 3 month average revenue
+Q47. customer order sequence - number customer orders 1st 2nd
+Q48. first and last order using windows (without subqueries)
+Q49. for every order, show number of days since last order
+Q50. find customers who placed another order within 30 days of a previous order.
+Q51. for every product - product_revenue, category_revenue, percentage of category
+Q52. customer contribution - customer_spend, total_company_revenue, percentage_of_total

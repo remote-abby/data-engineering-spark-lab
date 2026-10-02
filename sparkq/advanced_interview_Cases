@@ -1,0 +1,54 @@
+Q61. find most expesive product in every category. Return ALL_TIES
+Q62. find customers who purchased every product belonging to a particular category.
+Q63. find customers who paid successfully paid using every supported payment method.
+Q64. calc daily revenue, then find days whose revenue was above the average daily revenue.
+Q65. calc what percentage of total revenue comes from top 10 customers
+Q66. order customers by spending and calc cumulative revenue contribution
+Q67. for every order return - order_id, order_total, paid_total, reconciliation_status. possible statuses FULLY_PAID, PARTIALLY_PAID, OVERPAID, UNPAID
+Q68. Data quality check - total_amount != SUM (q * unit_price)
+Q69. Revenue, category revenue, % of cat rev, overall rev, % of overall revenue
+Q70. missing active days - no orders
+
+Q71. Duplicate row explosion - orders, order_items, payments - calc total payment amount.
+Q72. left join accidents - find customers with no orders
+Q73. where vs having - find contry with customer count > 100
+Q74. RANK - DENSE_RANK - ROW_NUMBER
+Q75. EXISTS vs IN
+
+--------------------------
+deliberately include
+
+NULL emails
+customers with no orders
+products never purchased
+orders without payments
+multiple payments for an order
+failed payments
+partial payments
+overpayments
+multiple products in an order
+same product appearing multiple times
+tied product prices
+customers with only one order
+customers with many orders
+orders with mismatched total_amount
+
+Difficulty: Medium
+
+Concepts:
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- COALESCE
+
+Patterns:
+- Aggregation after JOIN
+- Anti-join
+
+Functions:
+- COUNT
+- SUM
+- COALESCE
+
+Interview frequency:
+High

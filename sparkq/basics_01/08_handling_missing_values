@@ -1,0 +1,26 @@
+/*
+Q08 - Handling Missing Values
+
+Difficulty: Easy
+
+Problem:
+Return customer contact information while handling missing
+email addresses.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+
+Requirements:
+- If email is NULL, display 'Unknown' instead.
+- Do not modify non-NULL email addresses.
+- The output column should still be called email.
+
+Concepts:
+- NULL
+- IS NULL
+- COALESCE
+- NULL handling
+*/

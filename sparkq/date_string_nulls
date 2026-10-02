@@ -1,0 +1,8 @@
+Q53. group orders by year and month
+Q54. orders by the day of the week
+Q55. calc revenue per quarter
+Q56. calc signup to first order
+Q57. for each month, count distinct customers who placed at least one order.
+Q58. create a normalised email column. - identify duplicate normalised emails.
+Q59. find products whose names contain a specified keyword.
+Q60. write a report where missing payment amounts and missing emails don't produce unexpected NULL results.

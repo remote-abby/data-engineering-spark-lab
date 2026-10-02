@@ -1,0 +1,5 @@
+Q37. Create CTE containing customer_id, total_spend then use it to find customers above a spending threshold.
+Q38. create monthly revenue and then calculate the months with revenue above the yearly average monthly revenue.
+Q39. Create an aggregated order-item dataset and compare it against orders.total_amount.
+Q40. using CTE find customer, first_order_date, last_order_date, total_orders
+Q41. build CTE that calculate customer spending, then classify low/medium/high then count customer in each segment.

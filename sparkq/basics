@@ -1,0 +1,8 @@
+Q1. Return customer from a particular country who signede up after a particular date.
+Q2. Find products whose price is in between two given values
+Q3. Return orders placed within specific date range.
+Q4. Return 20 most expensive products.
+Q5. Return all payment methods used.
+Q6. Classify products into budget, standard and premium based on price. < 50, 50-200, >200
+Q7. Return customer names in standardised format.
+Q8. Handling missing values
