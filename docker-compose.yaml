@@ -62,5 +62,5 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] aggregate_02/14_customer_above_threshold.py
+    command: /opt/spark/bin/spark-submit --master local[*] aggregate_02/16_success_payment_percentage.py
 
