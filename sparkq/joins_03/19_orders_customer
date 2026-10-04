@@ -1,0 +1,26 @@
+/*
+Q19 - Orders with Customer Details
+
+Difficulty: Easy
+
+Problem:
+Return each order along with the customer who placed it.
+
+Return:
+- customer_id
+- customer_name
+- order_id
+- order_date
+- status
+
+Requirements:
+- Combine customer and order information.
+- Customer name should be returned as a single customer_name column.
+- Return one row for each order.
+
+Concepts:
+- INNER JOIN
+- JOIN condition
+- CONCAT
+- Column aliases
+*/

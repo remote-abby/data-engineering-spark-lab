@@ -1,0 +1,26 @@
+
+/*
+Q22 - Orders Without Payments
+
+Difficulty: Easy
+
+Problem:
+Find all orders that do not have a corresponding
+payment record.
+
+Return:
+- order_id
+- customer_id
+- order_date
+- status
+- total_amount
+
+Requirements:
+- Include orders for which no payment record exists.
+- Return each order only once.
+
+Concepts:
+- LEFT JOIN
+- IS NULL
+- Anti-join
+*/

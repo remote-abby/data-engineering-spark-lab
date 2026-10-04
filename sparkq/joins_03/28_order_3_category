@@ -1,0 +1,26 @@
+/*
+Q28 - Orders with at Least Three Different Products
+
+Difficulty: Medium
+
+Problem:
+Find all orders that contain at least three
+different products.
+
+Return:
+- order_id
+- distinct_product_count
+
+Requirements:
+- Count distinct product_id values for each order.
+- Return only orders containing at least three
+  different products.
+- Sort by distinct_product_count in descending order.
+
+Concepts:
+- COUNT(DISTINCT)
+- GROUP BY
+- HAVING
+- JOIN
+- Aggregation filtering
+*/

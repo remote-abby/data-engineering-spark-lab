@@ -1,0 +1,34 @@
+/*
+Q24 - Order Payment Reconciliation
+
+Difficulty: Medium
+
+Problem:
+For every order, calculate the order total and the
+total amount paid against the order.
+
+Return:
+- order_id
+- order_total
+- total_paid
+- difference
+
+Requirements:
+- order_total should come from orders.total_amount.
+- total_paid should be the sum of all corresponding
+  payment amounts.
+- Calculate difference as:
+
+  order_total - total_paid
+
+- Include orders that have no payments.
+- Orders with no payments should have total_paid = 0.
+
+Concepts:
+- LEFT JOIN
+- SUM
+- GROUP BY
+- COALESCE
+- Arithmetic expressions
+- Aggregation
+*/

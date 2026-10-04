@@ -1,0 +1,27 @@
+
+/*
+Q21 - Products Never Sold
+
+Difficulty: Easy
+
+Problem:
+Find all products that have never been sold.
+
+Return:
+- product_id
+- product_name
+- category
+- price
+
+Requirements:
+- A product is considered sold if it appears in
+  the order_items table.
+- Include products that have no corresponding
+  order_items record.
+- Return each product only once.
+
+Concepts:
+- LEFT JOIN
+- IS NULL
+- Anti-join
+*/

@@ -1,0 +1,26 @@
+/*
+Q23 - Orders with Multiple Payments
+
+Difficulty: Medium
+
+Problem:
+Find orders that are associated with more than
+one payment record.
+
+Return:
+- order_id
+- payment_count
+
+Requirements:
+- Count the number of payment records associated
+  with each order.
+- Return only orders with more than one payment.
+- Sort by payment_count in descending order.
+
+Concepts:
+- JOIN
+- COUNT
+- GROUP BY
+- HAVING
+- Aggregation filtering
+*/

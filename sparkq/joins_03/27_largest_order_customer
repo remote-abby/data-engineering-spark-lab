@@ -1,0 +1,31 @@
+
+
+/*
+Q27 - Customer with the Largest Order
+
+Difficulty: Medium
+
+Problem:
+Find the customer who placed the largest individual order.
+
+Return:
+- customer_id
+- customer_name
+- order_id
+- order_date
+- total_amount
+
+Requirements:
+- Identify the order with the highest total_amount.
+- Return the customer who placed that order.
+- Include the corresponding order details.
+- If multiple orders have the same highest amount,
+  return all matching orders.
+
+Concepts:
+- JOIN
+- ORDER BY
+- LIMIT
+- Handling ties
+- Aggregation / comparison
+*/

@@ -1,0 +1,25 @@
+
+/*
+Q20 - Customers with No Orders
+
+Difficulty: Easy
+
+Problem:
+Find all customers who have never placed an order.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+
+Requirements:
+- Include only customers who do not have any
+  corresponding records in the orders table.
+- Return each customer only once.
+
+Concepts:
+- LEFT JOIN
+- IS NULL
+- Anti-join
+*/
