@@ -62,5 +62,4 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] aggregate_02/18_median_price_category.py
-
+    command: /opt/spark/bin/spark-submit --master local[*] joins_03/26_revenue_category.py
