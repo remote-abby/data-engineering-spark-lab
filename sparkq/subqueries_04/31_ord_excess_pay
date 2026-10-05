@@ -1,0 +1,34 @@
+
+
+/*
+Q31 - Orders with Excess Payments
+
+Difficulty: Medium
+
+Problem:
+Find orders where the total amount paid is greater than
+the order's total amount.
+
+Return:
+- order_id
+- order_total
+- total_paid
+- excess_amount
+
+Requirements:
+- Calculate the total payment amount for each order.
+- Compare total_paid with orders.total_amount.
+- Return only orders where total_paid is greater than
+  order_total.
+- Calculate excess_amount as:
+
+  total_paid - order_total
+
+Concepts:
+- Subquery
+- SUM
+- GROUP BY
+- JOIN
+- Aggregate comparison
+- Arithmetic expressions
+*/

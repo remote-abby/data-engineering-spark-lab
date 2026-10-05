@@ -1,0 +1,28 @@
+
+/*
+Q34 - Customers with No Failed Payments
+
+Difficulty: Medium
+
+Problem:
+Find customers for whom no payment has ever failed.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+
+Requirements:
+- Return customers who have no payment records with
+  payment_status = 'FAILED'.
+- A customer with no payment records should also satisfy
+  this condition.
+- Return each customer only once.
+
+Concepts:
+- NOT EXISTS
+- Correlated subquery
+- Negated conditions
+- NULL / absence handling
+*/

@@ -1,0 +1,30 @@
+/*
+Q29 - Customers Above Average Spend
+
+Difficulty: Medium
+
+Problem:
+Find customers whose total spending is greater than the
+average spending across all customers.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- total_spending
+
+Requirements:
+- Calculate the total spending for each customer.
+- Calculate the average customer spending.
+- Return only customers whose total_spending is greater
+  than the average customer spending.
+- Sort the results by total_spending in descending order.
+
+Concepts:
+- JOIN
+- SUM
+- GROUP BY
+- Subquery
+- Aggregate comparison
+- HAVING
+*/

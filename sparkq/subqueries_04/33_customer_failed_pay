@@ -1,0 +1,29 @@
+
+/*
+Q33 - Customers with Failed Payments
+
+Difficulty: Medium
+
+Problem:
+Find customers who have made at least one payment that failed.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+
+Requirements:
+- A customer qualifies if at least one of their payments
+  has payment_status = 'FAILED'.
+- Return each customer only once.
+- Customers with no failed payments should not be returned.
+
+Concepts:
+- EXISTS
+- JOIN
+- Subquery
+- Filtering
+- DISTINCT
+*/
+

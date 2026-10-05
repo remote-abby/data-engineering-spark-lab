@@ -1,0 +1,32 @@
+
+
+
+/*
+Q32 - Latest Order for Each Customer
+
+Difficulty: Medium
+
+Problem:
+Find the latest order placed by every customer.
+
+Return:
+- customer_id
+- order_id
+- order_date
+- status
+- total_amount
+
+Requirements:
+- Return at most one latest order for each customer.
+- Determine the latest order using order_date.
+- Include customers who have placed at least one order.
+- Handle customers with multiple orders correctly.
+
+Concepts:
+- Correlated subquery
+- MAX
+- GROUP BY
+- Subquery
+- Per-group maximum
+*/
+

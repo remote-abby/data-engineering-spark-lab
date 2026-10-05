@@ -1,0 +1,32 @@
+
+/*
+Q30 - Products Above Category Average
+
+Difficulty: Medium
+
+Problem:
+Find products whose price is greater than the average
+price of products in their own category.
+
+Return:
+- product_id
+- product_name
+- category
+- price
+- category_average_price
+
+Requirements:
+- Calculate the average product price separately for
+  each category.
+- Compare each product's price with the average price
+  of its own category.
+- Return only products priced above their category average.
+- Include the category average in the result.
+
+Concepts:
+- Correlated subquery
+- AVG
+- GROUP BY
+- Aggregate comparison
+- Subquery
+*/

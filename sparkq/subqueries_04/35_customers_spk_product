@@ -1,0 +1,29 @@
+/*
+Q35 - Customers Who Purchased a Given Product
+
+Difficulty: Medium
+
+Problem:
+Find all customers who have purchased a specified product.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- email
+
+Requirements:
+- Accept a product_id as the input product.
+- A customer qualifies if the product appears in one or
+  more of their orders.
+- Return each customer only once.
+- Customers who have not purchased the specified product
+  should not be returned.
+
+Concepts:
+- EXISTS
+- Correlated subquery
+- JOIN
+- Filtering
+- DISTINCT
+*/

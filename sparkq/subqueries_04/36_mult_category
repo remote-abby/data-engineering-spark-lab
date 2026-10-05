@@ -1,0 +1,32 @@
+
+
+/*
+Q36 - Customers Buying from Multiple Categories
+
+Difficulty: Medium
+
+Problem:
+Find customers who have purchased products from at least
+three different product categories.
+
+Return:
+- customer_id
+- first_name
+- last_name
+- distinct_category_count
+
+Requirements:
+- Consider only categories represented by products that the
+  customer has actually purchased.
+- Count distinct product categories for each customer.
+- Return only customers with at least three distinct categories.
+- Sort the results by distinct_category_count in descending order.
+
+Concepts:
+- JOIN
+- COUNT(DISTINCT)
+- GROUP BY
+- HAVING
+- Aggregation
+- Many-to-many relationships
+*/
