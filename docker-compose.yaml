@@ -48,6 +48,9 @@ services:
     environment:
       AWS_ACCESS_KEY_ID: minioadmin
       AWS_SECRET_ACCESS_KEY: minioadmin
+    ports:
+      - 4040:4040
+      - 8080:8080
     volumes:
       - ./solutions:/app
       - ./datasets:/app/datasets
@@ -62,4 +65,4 @@ services:
         condition: service_healthy
 
     # command: sh -c "sleep infinity"
-    command: /opt/spark/bin/spark-submit --master local[*] joins_03/19_orders_customer.py
+    command: /opt/spark/bin/spark-submit --master local[*] subqueries_04/33_customer_failed_pay.py
